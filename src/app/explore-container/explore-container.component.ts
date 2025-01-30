@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Tab0Page } from '../tab0/tab0.page';
 
 @Component({
   selector: 'app-explore-container',
@@ -8,6 +9,7 @@ import { Component, Input } from '@angular/core';
 })
 export class ExploreContainerComponent {
 
+  component = Tab0Page;
   @Input() name?: string;
 
 }
