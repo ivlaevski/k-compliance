@@ -1,0 +1,8 @@
+{
+  "name": "KCompliance",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "047903cd"
+}
